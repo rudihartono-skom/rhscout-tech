@@ -1,0 +1,61 @@
+.body{
+    background-color: #171717;
+    color: white;
+}
+
+.container .navbar-brand span{
+    color: #00fa00;
+}
+.d-flex .span{
+    color: #fa6c00;
+}
+.bg-coklat{
+    background-color: #fa6c00;
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url(images/bg-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero .content{
+    padding: 0 9%;
+}
+
+.hero .content h1{
+    color: white;
+    font-size: 6.5rem;
+    text-shadow: 1px 1px 8px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero .content p{
+    color: #ffffff95;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 8px black;
+}
+
+.hero .content .btn{
+    background-color: pink;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0.6rem 1.8rem;
+}
+
+.hero .content .btn:hover{
+    background-color: white;
+    color: #fa6c00;
+}
+
+.about p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    color: #ffffff96;
+    text-align: justify;
+    text-indent: 3rem;
+}
